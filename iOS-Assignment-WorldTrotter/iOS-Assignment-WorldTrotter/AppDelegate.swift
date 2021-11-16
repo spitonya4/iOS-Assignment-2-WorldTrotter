@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CS275 iOS Assignment #2
+//  iOS-Assignment-WorldTrotter
 //
 //  Created by Sam Pitonyak on 11/16/21.
 //

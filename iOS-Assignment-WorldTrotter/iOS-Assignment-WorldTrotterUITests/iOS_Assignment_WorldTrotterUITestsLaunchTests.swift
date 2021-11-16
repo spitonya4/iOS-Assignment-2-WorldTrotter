@@ -1,13 +1,13 @@
 //
-//  CS275_iOS_Assignment__2UITestsLaunchTests.swift
-//  CS275 iOS Assignment #2UITests
+//  iOS_Assignment_WorldTrotterUITestsLaunchTests.swift
+//  iOS-Assignment-WorldTrotterUITests
 //
 //  Created by Sam Pitonyak on 11/16/21.
 //
 
 import XCTest
 
-class CS275_iOS_Assignment__2UITestsLaunchTests: XCTestCase {
+class iOS_Assignment_WorldTrotterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

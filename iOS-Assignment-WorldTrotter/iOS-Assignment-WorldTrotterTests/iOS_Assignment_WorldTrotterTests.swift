@@ -1,14 +1,14 @@
 //
-//  CS275_iOS_Assignment__2Tests.swift
-//  CS275 iOS Assignment #2Tests
+//  iOS_Assignment_WorldTrotterTests.swift
+//  iOS-Assignment-WorldTrotterTests
 //
 //  Created by Sam Pitonyak on 11/16/21.
 //
 
 import XCTest
-@testable import CS275_iOS_Assignment__2
+@testable import iOS_Assignment_WorldTrotter
 
-class CS275_iOS_Assignment__2Tests: XCTestCase {
+class iOS_Assignment_WorldTrotterTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

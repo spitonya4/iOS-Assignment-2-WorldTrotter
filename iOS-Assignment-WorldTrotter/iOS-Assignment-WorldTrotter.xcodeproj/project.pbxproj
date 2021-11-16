@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8D852FA274403AA00613A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D852F9274403AA00613A50 /* AppDelegate.swift */; };
-		D8D852FC274403AA00613A50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D852FB274403AA00613A50 /* SceneDelegate.swift */; };
-		D8D852FE274403AA00613A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D852FD274403AA00613A50 /* ViewController.swift */; };
-		D8D85301274403AA00613A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D852FF274403AA00613A50 /* Main.storyboard */; };
-		D8D85303274403AE00613A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D85302274403AE00613A50 /* Assets.xcassets */; };
-		D8D85306274403AE00613A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D85304274403AE00613A50 /* LaunchScreen.storyboard */; };
-		D8D85311274403AE00613A50 /* CS275_iOS_Assignment__2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D85310274403AE00613A50 /* CS275_iOS_Assignment__2Tests.swift */; };
-		D8D8531B274403AE00613A50 /* CS275_iOS_Assignment__2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D8531A274403AE00613A50 /* CS275_iOS_Assignment__2UITests.swift */; };
-		D8D8531D274403AE00613A50 /* CS275_iOS_Assignment__2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D8531C274403AE00613A50 /* CS275_iOS_Assignment__2UITestsLaunchTests.swift */; };
+		D83B56662744085000DC2758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56652744085000DC2758 /* AppDelegate.swift */; };
+		D83B56682744085000DC2758 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56672744085000DC2758 /* SceneDelegate.swift */; };
+		D83B566A2744085000DC2758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56692744085000DC2758 /* ViewController.swift */; };
+		D83B566D2744085000DC2758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B566B2744085000DC2758 /* Main.storyboard */; };
+		D83B566F2744085200DC2758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83B566E2744085200DC2758 /* Assets.xcassets */; };
+		D83B56722744085200DC2758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B56702744085200DC2758 /* LaunchScreen.storyboard */; };
+		D83B567D2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B567C2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift */; };
+		D83B56872744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56862744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift */; };
+		D83B56892744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56882744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D8D8530D274403AE00613A50 /* PBXContainerItemProxy */ = {
+		D83B56792744085200DC2758 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8D852EE274403AA00613A50 /* Project object */;
+			containerPortal = D83B565A2744085000DC2758 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D8D852F5274403AA00613A50;
-			remoteInfo = "CS275 iOS Assignment #2";
+			remoteGlobalIDString = D83B56612744085000DC2758;
+			remoteInfo = "iOS-Assignment-WorldTrotter";
 		};
-		D8D85317274403AE00613A50 /* PBXContainerItemProxy */ = {
+		D83B56832744085300DC2758 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8D852EE274403AA00613A50 /* Project object */;
+			containerPortal = D83B565A2744085000DC2758 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D8D852F5274403AA00613A50;
-			remoteInfo = "CS275 iOS Assignment #2";
+			remoteGlobalIDString = D83B56612744085000DC2758;
+			remoteInfo = "iOS-Assignment-WorldTrotter";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8D852F6274403AA00613A50 /* CS275 iOS Assignment #2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CS275 iOS Assignment #2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D852F9274403AA00613A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8D852FB274403AA00613A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8D852FD274403AA00613A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D8D85300274403AA00613A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D8D85302274403AE00613A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8D85305274403AE00613A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D8D85307274403AE00613A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8D8530C274403AE00613A50 /* CS275 iOS Assignment #2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CS275 iOS Assignment #2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D85310274403AE00613A50 /* CS275_iOS_Assignment__2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS275_iOS_Assignment__2Tests.swift; sourceTree = "<group>"; };
-		D8D85316274403AE00613A50 /* CS275 iOS Assignment #2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CS275 iOS Assignment #2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D8531A274403AE00613A50 /* CS275_iOS_Assignment__2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS275_iOS_Assignment__2UITests.swift; sourceTree = "<group>"; };
-		D8D8531C274403AE00613A50 /* CS275_iOS_Assignment__2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS275_iOS_Assignment__2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D83B56622744085000DC2758 /* iOS-Assignment-WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Assignment-WorldTrotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83B56652744085000DC2758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D83B56672744085000DC2758 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D83B56692744085000DC2758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D83B566C2744085000DC2758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83B566E2744085200DC2758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83B56712744085200DC2758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D83B56732744085200DC2758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83B56782744085200DC2758 /* iOS-Assignment-WorldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Assignment-WorldTrotterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83B567C2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Assignment_WorldTrotterTests.swift; sourceTree = "<group>"; };
+		D83B56822744085300DC2758 /* iOS-Assignment-WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Assignment-WorldTrotterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83B56862744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Assignment_WorldTrotterUITests.swift; sourceTree = "<group>"; };
+		D83B56882744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Assignment_WorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D8D852F3274403AA00613A50 /* Frameworks */ = {
+		D83B565F2744085000DC2758 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D85309274403AE00613A50 /* Frameworks */ = {
+		D83B56752744085200DC2758 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D85313274403AE00613A50 /* Frameworks */ = {
+		D83B567F2744085300DC2758 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D8D852ED274403AA00613A50 = {
+		D83B56592744085000DC2758 = {
 			isa = PBXGroup;
 			children = (
-				D8D852F8274403AA00613A50 /* CS275 iOS Assignment #2 */,
-				D8D8530F274403AE00613A50 /* CS275 iOS Assignment #2Tests */,
-				D8D85319274403AE00613A50 /* CS275 iOS Assignment #2UITests */,
-				D8D852F7274403AA00613A50 /* Products */,
+				D83B56642744085000DC2758 /* iOS-Assignment-WorldTrotter */,
+				D83B567B2744085200DC2758 /* iOS-Assignment-WorldTrotterTests */,
+				D83B56852744085300DC2758 /* iOS-Assignment-WorldTrotterUITests */,
+				D83B56632744085000DC2758 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D8D852F7274403AA00613A50 /* Products */ = {
+		D83B56632744085000DC2758 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8D852F6274403AA00613A50 /* CS275 iOS Assignment #2.app */,
-				D8D8530C274403AE00613A50 /* CS275 iOS Assignment #2Tests.xctest */,
-				D8D85316274403AE00613A50 /* CS275 iOS Assignment #2UITests.xctest */,
+				D83B56622744085000DC2758 /* iOS-Assignment-WorldTrotter.app */,
+				D83B56782744085200DC2758 /* iOS-Assignment-WorldTrotterTests.xctest */,
+				D83B56822744085300DC2758 /* iOS-Assignment-WorldTrotterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8D852F8274403AA00613A50 /* CS275 iOS Assignment #2 */ = {
+		D83B56642744085000DC2758 /* iOS-Assignment-WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
-				D8D852F9274403AA00613A50 /* AppDelegate.swift */,
-				D8D852FB274403AA00613A50 /* SceneDelegate.swift */,
-				D8D852FD274403AA00613A50 /* ViewController.swift */,
-				D8D852FF274403AA00613A50 /* Main.storyboard */,
-				D8D85302274403AE00613A50 /* Assets.xcassets */,
-				D8D85304274403AE00613A50 /* LaunchScreen.storyboard */,
-				D8D85307274403AE00613A50 /* Info.plist */,
+				D83B56652744085000DC2758 /* AppDelegate.swift */,
+				D83B56672744085000DC2758 /* SceneDelegate.swift */,
+				D83B56692744085000DC2758 /* ViewController.swift */,
+				D83B566B2744085000DC2758 /* Main.storyboard */,
+				D83B566E2744085200DC2758 /* Assets.xcassets */,
+				D83B56702744085200DC2758 /* LaunchScreen.storyboard */,
+				D83B56732744085200DC2758 /* Info.plist */,
 			);
-			path = "CS275 iOS Assignment #2";
+			path = "iOS-Assignment-WorldTrotter";
 			sourceTree = "<group>";
 		};
-		D8D8530F274403AE00613A50 /* CS275 iOS Assignment #2Tests */ = {
+		D83B567B2744085200DC2758 /* iOS-Assignment-WorldTrotterTests */ = {
 			isa = PBXGroup;
 			children = (
-				D8D85310274403AE00613A50 /* CS275_iOS_Assignment__2Tests.swift */,
+				D83B567C2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift */,
 			);
-			path = "CS275 iOS Assignment #2Tests";
+			path = "iOS-Assignment-WorldTrotterTests";
 			sourceTree = "<group>";
 		};
-		D8D85319274403AE00613A50 /* CS275 iOS Assignment #2UITests */ = {
+		D83B56852744085300DC2758 /* iOS-Assignment-WorldTrotterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D8D8531A274403AE00613A50 /* CS275_iOS_Assignment__2UITests.swift */,
-				D8D8531C274403AE00613A50 /* CS275_iOS_Assignment__2UITestsLaunchTests.swift */,
+				D83B56862744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift */,
+				D83B56882744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift */,
 			);
-			path = "CS275 iOS Assignment #2UITests";
+			path = "iOS-Assignment-WorldTrotterUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8D852F5274403AA00613A50 /* CS275 iOS Assignment #2 */ = {
+		D83B56612744085000DC2758 /* iOS-Assignment-WorldTrotter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8D85320274403AE00613A50 /* Build configuration list for PBXNativeTarget "CS275 iOS Assignment #2" */;
+			buildConfigurationList = D83B568C2744085300DC2758 /* Build configuration list for PBXNativeTarget "iOS-Assignment-WorldTrotter" */;
 			buildPhases = (
-				D8D852F2274403AA00613A50 /* Sources */,
-				D8D852F3274403AA00613A50 /* Frameworks */,
-				D8D852F4274403AA00613A50 /* Resources */,
+				D83B565E2744085000DC2758 /* Sources */,
+				D83B565F2744085000DC2758 /* Frameworks */,
+				D83B56602744085000DC2758 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CS275 iOS Assignment #2";
-			productName = "CS275 iOS Assignment #2";
-			productReference = D8D852F6274403AA00613A50 /* CS275 iOS Assignment #2.app */;
+			name = "iOS-Assignment-WorldTrotter";
+			productName = "iOS-Assignment-WorldTrotter";
+			productReference = D83B56622744085000DC2758 /* iOS-Assignment-WorldTrotter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8D8530B274403AE00613A50 /* CS275 iOS Assignment #2Tests */ = {
+		D83B56772744085200DC2758 /* iOS-Assignment-WorldTrotterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8D85323274403AE00613A50 /* Build configuration list for PBXNativeTarget "CS275 iOS Assignment #2Tests" */;
+			buildConfigurationList = D83B568F2744085300DC2758 /* Build configuration list for PBXNativeTarget "iOS-Assignment-WorldTrotterTests" */;
 			buildPhases = (
-				D8D85308274403AE00613A50 /* Sources */,
-				D8D85309274403AE00613A50 /* Frameworks */,
-				D8D8530A274403AE00613A50 /* Resources */,
+				D83B56742744085200DC2758 /* Sources */,
+				D83B56752744085200DC2758 /* Frameworks */,
+				D83B56762744085200DC2758 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D8D8530E274403AE00613A50 /* PBXTargetDependency */,
+				D83B567A2744085200DC2758 /* PBXTargetDependency */,
 			);
-			name = "CS275 iOS Assignment #2Tests";
-			productName = "CS275 iOS Assignment #2Tests";
-			productReference = D8D8530C274403AE00613A50 /* CS275 iOS Assignment #2Tests.xctest */;
+			name = "iOS-Assignment-WorldTrotterTests";
+			productName = "iOS-Assignment-WorldTrotterTests";
+			productReference = D83B56782744085200DC2758 /* iOS-Assignment-WorldTrotterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D8D85315274403AE00613A50 /* CS275 iOS Assignment #2UITests */ = {
+		D83B56812744085300DC2758 /* iOS-Assignment-WorldTrotterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8D85326274403AE00613A50 /* Build configuration list for PBXNativeTarget "CS275 iOS Assignment #2UITests" */;
+			buildConfigurationList = D83B56922744085300DC2758 /* Build configuration list for PBXNativeTarget "iOS-Assignment-WorldTrotterUITests" */;
 			buildPhases = (
-				D8D85312274403AE00613A50 /* Sources */,
-				D8D85313274403AE00613A50 /* Frameworks */,
-				D8D85314274403AE00613A50 /* Resources */,
+				D83B567E2744085300DC2758 /* Sources */,
+				D83B567F2744085300DC2758 /* Frameworks */,
+				D83B56802744085300DC2758 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D8D85318274403AE00613A50 /* PBXTargetDependency */,
+				D83B56842744085300DC2758 /* PBXTargetDependency */,
 			);
-			name = "CS275 iOS Assignment #2UITests";
-			productName = "CS275 iOS Assignment #2UITests";
-			productReference = D8D85316274403AE00613A50 /* CS275 iOS Assignment #2UITests.xctest */;
+			name = "iOS-Assignment-WorldTrotterUITests";
+			productName = "iOS-Assignment-WorldTrotterUITests";
+			productReference = D83B56822744085300DC2758 /* iOS-Assignment-WorldTrotterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D8D852EE274403AA00613A50 /* Project object */ = {
+		D83B565A2744085000DC2758 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					D8D852F5274403AA00613A50 = {
+					D83B56612744085000DC2758 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					D8D8530B274403AE00613A50 = {
+					D83B56772744085200DC2758 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = D8D852F5274403AA00613A50;
+						TestTargetID = D83B56612744085000DC2758;
 					};
-					D8D85315274403AE00613A50 = {
+					D83B56812744085300DC2758 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = D8D852F5274403AA00613A50;
+						TestTargetID = D83B56612744085000DC2758;
 					};
 				};
 			};
-			buildConfigurationList = D8D852F1274403AA00613A50 /* Build configuration list for PBXProject "CS275 iOS Assignment #2" */;
+			buildConfigurationList = D83B565D2744085000DC2758 /* Build configuration list for PBXProject "iOS-Assignment-WorldTrotter" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D8D852ED274403AA00613A50;
-			productRefGroup = D8D852F7274403AA00613A50 /* Products */;
+			mainGroup = D83B56592744085000DC2758;
+			productRefGroup = D83B56632744085000DC2758 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8D852F5274403AA00613A50 /* CS275 iOS Assignment #2 */,
-				D8D8530B274403AE00613A50 /* CS275 iOS Assignment #2Tests */,
-				D8D85315274403AE00613A50 /* CS275 iOS Assignment #2UITests */,
+				D83B56612744085000DC2758 /* iOS-Assignment-WorldTrotter */,
+				D83B56772744085200DC2758 /* iOS-Assignment-WorldTrotterTests */,
+				D83B56812744085300DC2758 /* iOS-Assignment-WorldTrotterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D8D852F4274403AA00613A50 /* Resources */ = {
+		D83B56602744085000DC2758 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D85306274403AE00613A50 /* LaunchScreen.storyboard in Resources */,
-				D8D85303274403AE00613A50 /* Assets.xcassets in Resources */,
-				D8D85301274403AA00613A50 /* Main.storyboard in Resources */,
+				D83B56722744085200DC2758 /* LaunchScreen.storyboard in Resources */,
+				D83B566F2744085200DC2758 /* Assets.xcassets in Resources */,
+				D83B566D2744085000DC2758 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D8530A274403AE00613A50 /* Resources */ = {
+		D83B56762744085200DC2758 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D85314274403AE00613A50 /* Resources */ = {
+		D83B56802744085300DC2758 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D8D852F2274403AA00613A50 /* Sources */ = {
+		D83B565E2744085000DC2758 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D852FE274403AA00613A50 /* ViewController.swift in Sources */,
-				D8D852FA274403AA00613A50 /* AppDelegate.swift in Sources */,
-				D8D852FC274403AA00613A50 /* SceneDelegate.swift in Sources */,
+				D83B566A2744085000DC2758 /* ViewController.swift in Sources */,
+				D83B56662744085000DC2758 /* AppDelegate.swift in Sources */,
+				D83B56682744085000DC2758 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D85308274403AE00613A50 /* Sources */ = {
+		D83B56742744085200DC2758 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D85311274403AE00613A50 /* CS275_iOS_Assignment__2Tests.swift in Sources */,
+				D83B567D2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D85312274403AE00613A50 /* Sources */ = {
+		D83B567E2744085300DC2758 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D8531B274403AE00613A50 /* CS275_iOS_Assignment__2UITests.swift in Sources */,
-				D8D8531D274403AE00613A50 /* CS275_iOS_Assignment__2UITestsLaunchTests.swift in Sources */,
+				D83B56872744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift in Sources */,
+				D83B56892744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D8D8530E274403AE00613A50 /* PBXTargetDependency */ = {
+		D83B567A2744085200DC2758 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8D852F5274403AA00613A50 /* CS275 iOS Assignment #2 */;
-			targetProxy = D8D8530D274403AE00613A50 /* PBXContainerItemProxy */;
+			target = D83B56612744085000DC2758 /* iOS-Assignment-WorldTrotter */;
+			targetProxy = D83B56792744085200DC2758 /* PBXContainerItemProxy */;
 		};
-		D8D85318274403AE00613A50 /* PBXTargetDependency */ = {
+		D83B56842744085300DC2758 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8D852F5274403AA00613A50 /* CS275 iOS Assignment #2 */;
-			targetProxy = D8D85317274403AE00613A50 /* PBXContainerItemProxy */;
+			target = D83B56612744085000DC2758 /* iOS-Assignment-WorldTrotter */;
+			targetProxy = D83B56832744085300DC2758 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D8D852FF274403AA00613A50 /* Main.storyboard */ = {
+		D83B566B2744085000DC2758 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8D85300274403AA00613A50 /* Base */,
+				D83B566C2744085000DC2758 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D8D85304274403AE00613A50 /* LaunchScreen.storyboard */ = {
+		D83B56702744085200DC2758 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8D85305274403AE00613A50 /* Base */,
+				D83B56712744085200DC2758 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D8D8531E274403AE00613A50 /* Debug */ = {
+		D83B568A2744085300DC2758 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		D8D8531F274403AE00613A50 /* Release */ = {
+		D83B568B2744085300DC2758 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +432,7 @@
 			};
 			name = Release;
 		};
-		D8D85321274403AE00613A50 /* Debug */ = {
+		D83B568D2744085300DC2758 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -440,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CS275 iOS Assignment #2/Info.plist";
+				INFOPLIST_FILE = "iOS-Assignment-WorldTrotter/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.CS275-iOS-Assignment--2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.iOS-Assignment-WorldTrotter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		D8D85322274403AE00613A50 /* Release */ = {
+		D83B568E2744085300DC2758 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CS275 iOS Assignment #2/Info.plist";
+				INFOPLIST_FILE = "iOS-Assignment-WorldTrotter/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.CS275-iOS-Assignment--2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.iOS-Assignment-WorldTrotter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +486,7 @@
 			};
 			name = Release;
 		};
-		D8D85324274403AE00613A50 /* Debug */ = {
+		D83B56902744085300DC2758 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,16 +501,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.CS275-iOS-Assignment--2Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.iOS-Assignment-WorldTrotterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CS275 iOS Assignment #2.app/CS275 iOS Assignment #2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Assignment-WorldTrotter.app/iOS-Assignment-WorldTrotter";
 			};
 			name = Debug;
 		};
-		D8D85325274403AE00613A50 /* Release */ = {
+		D83B56912744085300DC2758 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,16 +525,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.CS275-iOS-Assignment--2Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.iOS-Assignment-WorldTrotterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CS275 iOS Assignment #2.app/CS275 iOS Assignment #2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Assignment-WorldTrotter.app/iOS-Assignment-WorldTrotter";
 			};
 			name = Release;
 		};
-		D8D85327274403AE00613A50 /* Debug */ = {
+		D83B56932744085300DC2758 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,16 +547,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.CS275-iOS-Assignment--2UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.iOS-Assignment-WorldTrotterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CS275 iOS Assignment #2";
+				TEST_TARGET_NAME = "iOS-Assignment-WorldTrotter";
 			};
 			name = Debug;
 		};
-		D8D85328274403AE00613A50 /* Release */ = {
+		D83B56942744085300DC2758 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -569,55 +569,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.CS275-iOS-Assignment--2UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spitonya.iOS-Assignment-WorldTrotterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CS275 iOS Assignment #2";
+				TEST_TARGET_NAME = "iOS-Assignment-WorldTrotter";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8D852F1274403AA00613A50 /* Build configuration list for PBXProject "CS275 iOS Assignment #2" */ = {
+		D83B565D2744085000DC2758 /* Build configuration list for PBXProject "iOS-Assignment-WorldTrotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D8531E274403AE00613A50 /* Debug */,
-				D8D8531F274403AE00613A50 /* Release */,
+				D83B568A2744085300DC2758 /* Debug */,
+				D83B568B2744085300DC2758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8D85320274403AE00613A50 /* Build configuration list for PBXNativeTarget "CS275 iOS Assignment #2" */ = {
+		D83B568C2744085300DC2758 /* Build configuration list for PBXNativeTarget "iOS-Assignment-WorldTrotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D85321274403AE00613A50 /* Debug */,
-				D8D85322274403AE00613A50 /* Release */,
+				D83B568D2744085300DC2758 /* Debug */,
+				D83B568E2744085300DC2758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8D85323274403AE00613A50 /* Build configuration list for PBXNativeTarget "CS275 iOS Assignment #2Tests" */ = {
+		D83B568F2744085300DC2758 /* Build configuration list for PBXNativeTarget "iOS-Assignment-WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D85324274403AE00613A50 /* Debug */,
-				D8D85325274403AE00613A50 /* Release */,
+				D83B56902744085300DC2758 /* Debug */,
+				D83B56912744085300DC2758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8D85326274403AE00613A50 /* Build configuration list for PBXNativeTarget "CS275 iOS Assignment #2UITests" */ = {
+		D83B56922744085300DC2758 /* Build configuration list for PBXNativeTarget "iOS-Assignment-WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D85327274403AE00613A50 /* Debug */,
-				D8D85328274403AE00613A50 /* Release */,
+				D83B56932744085300DC2758 /* Debug */,
+				D83B56942744085300DC2758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D8D852EE274403AA00613A50 /* Project object */;
+	rootObject = D83B565A2744085000DC2758 /* Project object */;
 }

@@ -1,13 +1,13 @@
 //
-//  CS275_iOS_Assignment__2UITests.swift
-//  CS275 iOS Assignment #2UITests
+//  iOS_Assignment_WorldTrotterUITests.swift
+//  iOS-Assignment-WorldTrotterUITests
 //
 //  Created by Sam Pitonyak on 11/16/21.
 //
 
 import XCTest
 
-class CS275_iOS_Assignment__2UITests: XCTestCase {
+class iOS_Assignment_WorldTrotterUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
