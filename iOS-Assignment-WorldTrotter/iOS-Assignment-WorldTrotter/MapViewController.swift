@@ -8,6 +8,7 @@
 import UIKit
 import MapKit
 
+
 class MapViewcontroller: UIViewController {
     
     var mapView: MKMapView!
@@ -26,16 +27,31 @@ class MapViewcontroller: UIViewController {
         segmentedControl.addTarget(self, action: #selector(mapTypeChanged(_:)), for: .valueChanged)
         
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
+        
         view.addSubview(segmentedControl)
+        let margins = view.layoutMarginsGuide
         
         let topConstraint = segmentedControl.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8)
-        let margins = view.layoutMarginsGuide
         let leadingConstraint = segmentedControl.leadingAnchor.constraint(equalTo: margins.leadingAnchor)
         let trailingConstraint = segmentedControl.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
         
         topConstraint.isActive = true
         leadingConstraint.isActive = true
         trailingConstraint.isActive = true
+        
+        let pointOfInt = UILabel()
+        pointOfInt.translatesAutoresizingMaskIntoConstraints = false
+        pointOfInt.text = "Points of Interest"
+        
+        view.addSubview(pointOfInt)
+        
+        let topLabelConstraint = pointOfInt.topAnchor.constraint(equalTo: segmentedControl.bottomAnchor, constant: 8)
+        let leadingLabelConstraint = pointOfInt.leadingAnchor.constraint(equalTo: segmentedControl.leadingAnchor)
+        let trailingLabelConstraint = pointOfInt.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
+        
+        topLabelConstraint.isActive = true
+        leadingLabelConstraint.isActive = true
+        trailingLabelConstraint.isActive = true
     }
     
     @objc func mapTypeChanged(_ segControl: UISegmentedControl) {
