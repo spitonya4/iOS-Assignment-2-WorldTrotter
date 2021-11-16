@@ -52,6 +52,21 @@ class MapViewcontroller: UIViewController {
         topLabelConstraint.isActive = true
         leadingLabelConstraint.isActive = true
         trailingLabelConstraint.isActive = true
+        
+        
+        let switchButton = UISwitch()
+        switchButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(switchButton)
+        
+        let labelWidth = pointOfInt.intrinsicContentSize.width + 12
+        print(labelWidth)
+        let topButtonConstraint = switchButton.topAnchor.constraint(equalTo: segmentedControl.bottomAnchor, constant: 8)
+        let leadingButtonConstraint = switchButton.leadingAnchor.constraint(equalTo: pointOfInt.trailingAnchor, constant: -labelWidth)
+        let trailingButtonConstraint = switchButton.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
+        
+        topButtonConstraint.isActive = true
+        leadingButtonConstraint.isActive = true
+        trailingButtonConstraint.isActive = true
     }
     
     @objc func mapTypeChanged(_ segControl: UISegmentedControl) {
