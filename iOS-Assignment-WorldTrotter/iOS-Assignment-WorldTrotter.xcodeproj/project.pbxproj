@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		D83B56662744085000DC2758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56652744085000DC2758 /* AppDelegate.swift */; };
 		D83B56682744085000DC2758 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56672744085000DC2758 /* SceneDelegate.swift */; };
-		D83B566A2744085000DC2758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56692744085000DC2758 /* ViewController.swift */; };
+		D83B566A2744085000DC2758 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56692744085000DC2758 /* ConversionViewController.swift */; };
 		D83B566D2744085000DC2758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B566B2744085000DC2758 /* Main.storyboard */; };
 		D83B566F2744085200DC2758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83B566E2744085200DC2758 /* Assets.xcassets */; };
 		D83B56722744085200DC2758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B56702744085200DC2758 /* LaunchScreen.storyboard */; };
 		D83B567D2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B567C2744085200DC2758 /* iOS_Assignment_WorldTrotterTests.swift */; };
 		D83B56872744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56862744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift */; };
 		D83B56892744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56882744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift */; };
+		D83B56962744108600DC2758 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B56952744108600DC2758 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		D83B56622744085000DC2758 /* iOS-Assignment-WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Assignment-WorldTrotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83B56652744085000DC2758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D83B56672744085000DC2758 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D83B56692744085000DC2758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D83B56692744085000DC2758 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		D83B566C2744085000DC2758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D83B566E2744085200DC2758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83B56712744085200DC2758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D83B56822744085300DC2758 /* iOS-Assignment-WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Assignment-WorldTrotterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83B56862744085300DC2758 /* iOS_Assignment_WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Assignment_WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		D83B56882744085300DC2758 /* iOS_Assignment_WorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Assignment_WorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D83B56952744108600DC2758 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				D83B56652744085000DC2758 /* AppDelegate.swift */,
 				D83B56672744085000DC2758 /* SceneDelegate.swift */,
-				D83B56692744085000DC2758 /* ViewController.swift */,
+				D83B56692744085000DC2758 /* ConversionViewController.swift */,
 				D83B566B2744085000DC2758 /* Main.storyboard */,
+				D83B56952744108600DC2758 /* MapViewController.swift */,
 				D83B566E2744085200DC2758 /* Assets.xcassets */,
 				D83B56702744085200DC2758 /* LaunchScreen.storyboard */,
 				D83B56732744085200DC2758 /* Info.plist */,
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83B566A2744085000DC2758 /* ViewController.swift in Sources */,
+				D83B566A2744085000DC2758 /* ConversionViewController.swift in Sources */,
 				D83B56662744085000DC2758 /* AppDelegate.swift in Sources */,
 				D83B56682744085000DC2758 /* SceneDelegate.swift in Sources */,
+				D83B56962744108600DC2758 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
