@@ -56,17 +56,47 @@ class MapViewcontroller: UIViewController {
         
         let switchButton = UISwitch()
         switchButton.translatesAutoresizingMaskIntoConstraints = false
+        
         view.addSubview(switchButton)
+        
+        switchButton.isOn = true
+        
+        switchButton.addTarget(self, action: #selector(poiDisplay(_:)), for: .valueChanged)
         
         let labelWidth = pointOfInt.intrinsicContentSize.width + 12
         print(labelWidth)
         let topButtonConstraint = switchButton.topAnchor.constraint(equalTo: segmentedControl.bottomAnchor, constant: 8)
-        let leadingButtonConstraint = switchButton.leadingAnchor.constraint(equalTo: pointOfInt.trailingAnchor, constant: -labelWidth)
+        let leadingButtonConstraint = switchButton.leadingAnchor.constraint(equalTo: pointOfInt.leadingAnchor, constant: labelWidth)
         let trailingButtonConstraint = switchButton.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
         
         topButtonConstraint.isActive = true
         leadingButtonConstraint.isActive = true
         trailingButtonConstraint.isActive = true
+        
+        let findMe = UIButton()
+        findMe.translatesAutoresizingMaskIntoConstraints = false
+        
+        findMe.setTitle("Find Me", for: .normal)
+        findMe.setTitleColor(.black, for: .normal)
+        findMe.layer.borderWidth = 1
+        findMe.layer.cornerRadius = 2
+        findMe.backgroundColor = UIColor.white
+        
+        view.addSubview(findMe)
+        
+        findMe.addTarget(self, action: #selector(pressedFind(_:)), for: .touchUpInside)
+        
+        
+        let topFindConstraint = findMe.topAnchor.constraint(equalTo: pointOfInt.bottomAnchor, constant: 8)
+        let leadingFindConstraint = findMe.leadingAnchor.constraint(equalTo: margins.leadingAnchor)
+        let fmButtonWidthConstraint = findMe.widthAnchor.constraint(
+        equalToConstant: findMe.titleLabel!.intrinsicContentSize.width + 2.0 * 3)
+        
+        
+        topFindConstraint.isActive = true
+        leadingFindConstraint.isActive = true
+        fmButtonWidthConstraint.isActive = true
+        
     }
     
     @objc func mapTypeChanged(_ segControl: UISegmentedControl) {
@@ -79,6 +109,21 @@ class MapViewcontroller: UIViewController {
             mapView.mapType = .satellite
         default:
             break
+        }
+    }
+    
+    @objc func poiDisplay(_ poiSwitch: UISwitch) {
+        if poiSwitch.isOn {
+            mapView.pointOfInterestFilter = MKPointOfInterestFilter(excluding: [])
+        } else {
+            mapView.pointOfInterestFilter = MKPointOfInterestFilter(including: [])
+        }
+    }
+    
+    @objc func pressedFind(_ findButton: UIButton) {
+        if findButton.isTouchInside {
+            let burlington = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 44.478273, longitude: -73.197882), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+            mapView.setRegion(burlington, animated: true)
         }
     }
     
